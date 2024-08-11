@@ -1,0 +1,229 @@
+name: untitled
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  firebase_auth: ^4.4.0
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.1
+  firebase_storage: ^11.1.0
+  file_picker: ^5.2.9
+  easy_pdf_viewer: ^1.0.6
+  syncfusion_flutter_pdfviewer: ^21.1.39
+
+ # smooth_star_rating: ^1.1.1
+
+  flutter:
+    sdk: flutter
+  rating_dialog: ^2.0.4
+  url_launcher: ^6.1.10
+  store_redirect:
+  fluttertoast: ^8.2.1
+  flutter_gif: ^0.0.4
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.5
+  share_plus: ^6.3.1
+  rate_my_app: ^1.1.4
+  settings_ui: ^2.0.2
+  bubble:
+  intl:
+  youtube_player_flutter: ^8.1.2
+  visibility_detector: ^0.4.0+2
+  line_awesome_flutter: ^2.0.0
+  google_sign_in: ^6.1.0
+  flutter_facebook_auth: ^5.0.8
+  pinput:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/wel1.png
+    - images/wel2.png
+    - images/wel3.png
+    - images/image1.jpg
+    - images/image2.jpg
+    - images/image3.png
+    - images/image4.png
+    - images/image5.png
+    - images/image6.png
+    - images/image7.png
+    - images/image8.png
+    - images/image9.jpg
+    - images/image10.png
+    - images/image11.png
+    - images/image12.png
+    - images/image13.png
+    - images/image14.jpg
+    - images/image15.jpg
+    - images/image16.jpg
+    - images/image17.jpg
+
+    - images/image18.png
+    - images/image19.png
+    - images/image20.png
+    - images/image21.png
+    - images/image22.png
+    - images/image23.png
+    - images/image24.png
+    - images/image25.png
+
+    - images/photo26.png
+    - images/photo27.png
+    - images/photo28.png
+
+    - images/image96.png
+    - images/96.png
+    - images/image97.png
+    - images/image98.png
+    - images/image99.png
+    - images/GPALogo.jpeg
+    - images/director.png
+    - images/mahadbt.png
+    - images/joindirector.png
+    - images/logo.png
+    - images/google.png
+    - images/facebook.png
+    - images/MS.png
+    - images/image100.png
+    - images/Tweeter.png
+    - images/vision.jpg
+    - images/mission.jpg
+    - images/classhub.png
+    - images/classhub.gif
+    - images/pdf.png
+    - images/profile.png
+
+    - images/QRCode/ApplidMech.png
+    - images/QRCode/BHostel.png
+    - images/QRCode/Canteen.png
+    - images/QRCode/ChemEngg.png
+    - images/QRCode/CivilEngg.png
+    - images/QRCode/CompEngg.png
+    - images/QRCode/ConO.png
+    - images/QRCode/ControllerOE.png
+    - images/QRCode/COStore.png
+    - images/QRCode/EntcEngg.png
+    - images/QRCode/Garden.png
+    - images/QRCode/GHostel.png
+    - images/QRCode/Gymkhana.png
+    - images/QRCode/ITEngg.png
+    - images/QRCode/JDRO.png
+    - images/QRCode/Liberary.png
+    - images/QRCode/MechEngg.png
+    - images/QRCode/PEngg.png
+    - images/QRCode/PPEngg.png
+    - images/QRCode/PrincipalCabin.png
+    - images/QRCode/Sch.png
+    - images/QRCode/TAPO.png
+    - images/QRCode/THostel.png
+    - images/Slider/1.png
+    - images/Slider/2.png
+    - images/Slider/4.png
+    - images/Slider/5.png
+
+    - images/Home_t_logos/clang.png
+    - images/Home_t_logos/cpplang.png
+    - images/Home_t_logos/javalang.png
+    - images/Home_t_logos/phplang.png
+    - images/Home_t_logos/python.png
+    - images/Home_t_logos/htmllang.png
+    - images/Home_t_logos/scilab.png
+    - images/Home_t_logos/circuitlab.png
+    - images/Home_t_logos/image80.png
+
+    - images/Home_t_logos/codeblock.png
+    - images/Home_t_logos/virtuallab.png
+    - images/Home_t_logos/ExpressPCB.png
+
+    - images/Home_t_logos/Autodesk.png
+    - images/Home_t_logos/Catia.png
+    - images/Home_t_logos/Creo.png
+
+    - images/Home_t_logos/Stadd.png
+    - images/Home_t_logos/Takla.png
+    - images/Home_t_logos/revit.png
+    - images/Home_t_logos/watergerms.png
+
+    - images/Home_t_logos/Tasm.png
+    - images/Home_t_logos/virtualbox.png
+    - images/Home_t_logos/xampp.png
+    - images/Home_t_logos/visualstudio.png
+    - images/Home_t_logos/androidstudio.png
+    - images/Home_t_logos/netbeans.png
+    - images/Home_t_logos/arduino.png
+    - images/Home_t_logos/Autocad.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,6 @@
+package com.example.wegpaiens
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

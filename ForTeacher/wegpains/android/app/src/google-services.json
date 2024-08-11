@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312891454775",
+    "project_id": "wegpains-5adad",
+    "storage_bucket": "wegpains-5adad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312891454775:android:4d68c7e8b5547eed4956b2",
+        "android_client_info": {
+          "package_name": "com.example.wegpaiens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312891454775-3etv98a57va3tthhl7smo1h3pc1ifbj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqE7ifIbIXuyv9382kBCCP41G_uRr7T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312891454775-3etv98a57va3tthhl7smo1h3pc1ifbj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
